@@ -1,3 +1,5 @@
+//QUESTION
+
 // Write a java program to determine if a number n is a happy number.
 
 // A happy number is a number defined by the following process:
@@ -48,6 +50,8 @@
 // The process does not reach 1 and starts repeating numbers. Hence, 2 is not a happy number.
 
 
+
+//PROGRAM
 import java.util.Scanner;
 public class HappyNumber {
     static int getSquareSum(int n) {

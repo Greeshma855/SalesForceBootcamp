@@ -1,3 +1,6 @@
+//QUESTION
+
+
 // Given an array of integers and a non-negative integer k, your task is to rotate the array to the right by k positions. 
 // Rotation means that elements at the end of the array move to the beginning, and the rest of the elements shift to the right.
 
@@ -43,8 +46,9 @@
 // ----------------
 // 4 5 1 2 3
 
-import java.util.Scanner;
 
+//PROGRAM
+import java.util.Scanner;
 public class RotateArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

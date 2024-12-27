@@ -1,3 +1,5 @@
+// QUESTION
+
 // Given a string S, your task is to find the longest repeated substring in the string. 
 // A repeated substring is a contiguous sequence of characters that appears at least twice in the string. 
 // If there are multiple such substrings of the same maximum length, return the lexicographically smallest one. 
@@ -51,6 +53,7 @@
 
 
 
+//PROGRAM
 import java.util.HashSet;
 import java.util.Scanner;
 

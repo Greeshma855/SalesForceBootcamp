@@ -1,3 +1,5 @@
+//QUESTION
+
 // Given an integer array nums, return the greatest common divisor (GCD) of the smallest number and the largest number in the array.
 
 // The Greatest Common Divisor (GCD) of two numbers is the largest positive integer that divides both numbers without leaving a remainder.
@@ -42,6 +44,7 @@
 // The GCD of 3 and 8 is 1.
 
 
+//PROGRAM
 import java.util.*;
 public class GCD {
     static int gcd(int a, int b) {

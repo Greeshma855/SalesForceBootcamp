@@ -1,3 +1,5 @@
+//QUESTION
+
 // Given a string s, write a recursive function to reverse the string. 
 // You are not allowed to use any built-in string manipulation functions. 
 
@@ -32,6 +34,8 @@
 // ----------------
 // 54321
 
+
+//PROGRAM
 import java.util.Scanner;
 public class ReverseString
 {

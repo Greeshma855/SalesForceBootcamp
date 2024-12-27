@@ -1,3 +1,5 @@
+//QUESTION
+
 // Given a sorted array of integers, modify the array in place to remove the duplicates such that each element appears only once. 
 // You task is to return the new length of the array after duplicates are removed. 
 
@@ -39,6 +41,8 @@
 
 // Explanation: The new length is 5, and the array becomes [0, 1, 2, 3, 4].
 
+
+//PROGRAM
 import java.util.*;
 
 public class RemoveDuplicates
