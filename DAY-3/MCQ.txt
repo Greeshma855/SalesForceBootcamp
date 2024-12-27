@@ -1,0 +1,503 @@
+1.Which of the following methods compile? (Choose all that apply)
+a. public void methodD() 
+b. public void methodA( return;) 
+c. public int methodE( return 9.0;) 
+d. public int methodF( return;) 
+e. public int methodD( return 9;) 
+f. public int methodG( return null) 
+g. public void methodB( return null;) 
+
+
+2.Which of the following compile? 
+a. public void moreA(int... nums) {}
+b. public void moreD(String... values, int... nums) {}
+c. public void moreB(String values, int... nums) {}
+d. public void moreE(String[] values, ...int nums) {}
+e. public void moreC(int... nums, String values) {}
+f. public void moreG(String[] values, int[] nums) {}
+g. public void moreF(String... values, int[] nums) {}
+
+
+3.What is the default port used by MySQL?
+a. 8080
+b. 1433
+c. 3306
+d. 1521
+
+
+4.Which of these classes compile and use a default constructor? (Choose all that apply)
+a. public class Bird { Bird(String name) {} }
+b. public class Bird { public Bird() {} }
+c. public class Bird { }
+d. public class Bird { void Bird() { }
+e. public class Bird { public bird() {} }
+f. public class Bird { private Bird(int age) {} }
+g. public class Bird { public bird(String name) {} }
+
+
+5.What is the result of the following?
+int[] random = { 6, -4, 12, 0, -10 };
+int x = 12;
+int y = Arrays.binarySearch(random, x);
+System.out.println(y);
+a. 4
+b. The result is undefined
+c. The code does not compile.
+d. 6
+e. 2
+f. An exception is thrown.
+
+
+6.Which code can be inserted to have the code print 2?
+public class BirdSeed {
+    private int numberBags;
+    boolean call;
+    public BirdSeed() 
+    {
+        // LINE 1
+        call = false;
+        // LINE 2
+        }
+    public BirdSeed(int numberBags) 
+    {
+        this.numberBags = numberBags;
+    }
+    public static void main(String[] args) {
+        BirdSeed seed = new BirdSeed();
+        System.out.println(seed.numberBags);
+    } 
+}
+a. Replace line 2 with this(2);
+b. Replace line 1 with BirdSeed(2);
+c. Replace line 2 with BirdSeed(2);
+d. Replace line 1 with this(2);
+e. Replace line 1 with new BirdSeed(2);
+f. Replace line 2 with new BirdSeed(2);
+
+
+7.What does ACID stand for in the context of databases?
+a. Accessibility, Concurrency, Isolation, Durability
+b. Atomicity, Consistency, Isolation, Durability
+c. Availability, Consistency, Integrity, Data
+d. Automation, Concurrency, Integrity, Durability
+
+
+8.What is the result of the following? 
+one = new ArrayList&lt;
+one.add("abc");
+two = new ArrayList&lt;
+two.add("abc");
+if (one == two)
+System.out.println("A");
+else if (one.equals(two))
+System.out.println("B");
+else
+System.out.println("C");
+a. A
+b. An exception is thrown.
+c. The code does not compile.
+d. C
+e. B
+
+
+9.What is the difference between WHERE and HAVING in MySQL?
+a. Both perform the same function but in different syntaxes.
+b. WHERE applies to numeric columns, and HAVING applies to text columns.
+c. WHERE filters rows before grouping, while HAVING filters after grouping.
+d. HAVING is used for filtering rows, and WHERE is used for filtering groups.
+
+
+10.What is the result of the following code?
+4: int total = 0;
+5: StringBuilder letters = new StringBuilder("abcdefg");
+6: total += letters.substring(1, 2).length();
+7: total += letters.substring(6, 6).length();
+8: total += letters.substring(6, 5).length();
+9: System.out.println(total)
+a. An exception is thrown.
+b. 7
+c. 1
+d. 3
+e. 2
+f. The code does not compile
+
+
+11.public class Tailor {
+    public static void main(String args[])
+    {
+        byte[][] ba = {{1,2,3,4}, {1,2}};
+        System.out.println(ba[1].length + " " + ba.length);
+    }
+}
+What is the result?
+a. 3 7
+b. 4 2
+c. Compilation fails
+d. 2 4
+e. 2 7
+f. 3 2
+g. 4 7
+
+
+12.Which of the following is used to retrieve only distinct rows in MySQL?
+a. SELECT UNIQUE
+b. SELECT NONDUPLICATE
+c. SELECT DISTINCT
+d. SELECT DIFFERENT
+
+
+13.What is the primary purpose of MySQL?
+a. To create machine learning models
+b. To manage and organize relational databases
+c. To analyze unstructured data
+d. To perform data visualization
+
+
+14.Which of these array declarations is not legal? (Choose all that apply)
+a. java.util.Date[] dates[] = new java.util.Date[2][];
+b. int[][] java = new int[][];
+c. int[][] scores = new int[5][];
+d. int[][] types = new int[]
+e. Object[][][] cubbies = new Object[3][0][5];
+f. String beans[] = new beans[6];
+
+
+15.Which of the following compile? (Choose all that apply)
+a. static final void method3() { }
+b. private void int method() { }
+c. void final method() {}
+d. public final int void method() { }
+e. void public method() {}
+f. final static void method4() 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dashboard / Quiz
+Started on	Thursday, 26 December 2024, 7:52 PM
+State	Finished
+Completed on	Thursday, 26 December 2024, 9:16 PM
+Time taken	1 hour 24 mins
+Marks	10.00/15.00
+Grade	66.67 out of 100.00
+Question 1
+Complete
+Mark 0.00 out of 1.00
+FlaggedRemove flag
+Question text
+Which of the following methods compile? (Choose all that apply)
+
+Select one or more:
+a. public void methodD() {}
+b. public void methodA() { return;}
+c. public int methodE() { return 9.0;}
+d. public int methodF() { return;}
+e. public int methodD() { return 9;}
+f. public int methodG() { return null;}
+g. public void methodB() { return null;}
+Question 2
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following compile? (Choose all that apply)
+
+Select one or more:
+a. public void moreA(int... nums) {}
+b. public void moreD(String... values, int... nums) {}
+c. public void moreB(String values, int... nums) {}
+d. public void moreE(String[] values, ...int nums) {}
+e. public void moreC(int... nums, String values) {}
+f. public void moreG(String[] values, int[] nums) {}
+g. public void moreF(String... values, int[] nums) {}
+Question 3
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What is the default port used by MySQL?
+
+
+
+Select one:
+a. 8080
+b. 1433
+c. 3306
+d. 1521
+Question 4
+Complete
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+Which of these classes compile and use a default constructor? (Choose all that apply)
+
+
+
+Select one or more:
+a. public class Bird { Bird(String name) {} }
+b. public class Bird { public Bird() {} }
+c. public class Bird { }
+d. public class Bird { void Bird() { }
+e. public class Bird { public bird() {} }
+f. public class Bird { private Bird(int age) {} }
+g. public class Bird { public bird(String name) {} }
+Question 5
+Complete
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+What is the result of the following?
+
+int[] random = { 6, -4, 12, 0, -10 };
+
+int x = 12;
+
+int y = Arrays.binarySearch(random, x);
+
+System.out.println(y);
+
+Select one or more:
+a. 4
+b. The result is undefined.
+c. The code does not compile.
+d. 6
+e. 2
+f. An exception is thrown.
+Question 6
+Complete
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+Which code can be inserted to have the code print 2?
+
+public class BirdSeed {
+
+ private int numberBags;
+
+ boolean call;
+
+ public BirdSeed() {
+
+ // LINE 1
+
+ call = false;
+
+ // LINE 2
+
+ }
+
+ public BirdSeed(int numberBags) {
+
+ this.numberBags = numberBags;
+
+ }
+
+ public static void main(String[] args) {
+
+ BirdSeed seed = new BirdSeed();
+
+ System.out.println(seed.numberBags);
+
+ } }
+
+
+
+Select one or more:
+a. Replace line 2 with this(2);
+b. Replace line 1 with BirdSeed(2);
+c. Replace line 2 with BirdSeed(2);
+d. Replace line 1 with this(2);
+e. Replace line 1 with new BirdSeed(2);
+f. Replace line 2 with new BirdSeed(2);
+Question 7
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What does ACID stand for in the context of databases?
+
+
+
+Select one:
+a. Accessibility, Concurrency, Isolation, Durability
+b. Atomicity, Consistency, Isolation, Durability
+c. Availability, Consistency, Integrity, Data
+d. Automation, Concurrency, Integrity, Durability
+Question 8
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What is the result of the following?
+
+List<String> one = new ArrayList<String>();
+
+one.add("abc");
+
+List<String> two = new ArrayList<>();
+
+two.add("abc");
+
+if (one == two) 
+
+ System.out.println("A");
+
+else if (one.equals(two))
+
+ System.out.println("B");
+
+else 
+
+ System.out.println("C");
+
+
+
+Select one or more:
+a. A
+b. An exception is thrown.
+c. The code does not compile.
+d. C
+e. B
+Question 9
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What is the difference between WHERE and HAVING in MySQL?
+
+Select one:
+a. Both perform the same function but in different syntaxes.
+b. WHERE applies to numeric columns, and HAVING applies to text columns.
+c. WHERE filters rows before grouping, while HAVING filters after grouping.
+d. HAVING is used for filtering rows, and WHERE is used for filtering groups.
+Question 10
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What is the result of the following code?
+
+
+
+4: int total = 0;
+
+5: StringBuilder letters = new StringBuilder("abcdefg");
+
+6: total += letters.substring(1, 2).length();
+
+7: total += letters.substring(6, 6).length();
+
+8: total += letters.substring(6, 5).length();
+
+9: System.out.println(total);
+
+
+
+Select one or more:
+a. An exception is thrown.
+b. 7
+c. 1
+d. 3
+e. 2
+f. The code does not compile.
+Question 11
+Complete
+Mark 0.00 out of 1.00
+Not flaggedFlag question
+Question text
+Given:
+
+public class Tailor {
+
+	public static void main(String args[]){
+
+		byte[][] ba = {{1,2,3,4}, {1,2}};
+
+		System.out.println(ba[1].length + " " + ba.length);
+
+	}
+
+}
+
+What is the result?
+
+Select one or more:
+a. 3 7
+b. 4 2
+c. Compilation fails
+d. 2 4
+e. 2 7
+f. 3 2
+g. 4 7
+Question 12
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following is used to retrieve only distinct rows in MySQL?
+
+
+
+Select one:
+a. SELECT UNIQUE
+b. SELECT NONDUPLICATE
+c. SELECT DISTINCT
+d. SELECT DIFFERENT
+Question 13
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+What is the primary purpose of MySQL?
+
+Select one:
+a. To create machine learning models
+b. To manage and organize relational databases
+c. To analyze unstructured data
+d. To perform data visualization
+Question 14
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Which of these array declarations is not legal? (Choose all that apply)
+
+Select one or more:
+a. java.util.Date[] dates[] = new java.util.Date[2][];
+b. int[][] java = new int[][];
+c. int[][] scores = new int[5][];
+d. int[][] types = new int[];
+e. Object[][][] cubbies = new Object[3][0][5];
+f. String beans[] = new beans[6];
+Question 15
+Complete
+Mark 1.00 out of 1.00
+Not flaggedFlag question
+Question text
+Which of the following compile? (Choose all that apply)
+
+
+
+Select one or more:
+a. static final void method3() { }
+b. private void int method() { }
+c. void final method() {}
+d. public final int void method() { }
+e. void public method() { }
+f. final static void method4() { }
