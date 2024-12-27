@@ -1,3 +1,5 @@
+//QUESTION
+
 // A dieter keeps track of their calorie intake using an array calories[], 
 // where calories[i] represents the calories consumed on the i-th day. 
 // Given an integer k, the dieter evaluates their performance for every consecutive sequence of k days 
@@ -82,8 +84,8 @@
 // Total points = 1 + 0 - 1 = 0.
 
 
+//PROGRAM
 import java.util.Scanner;
-
 public class DietPlanPerformance {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

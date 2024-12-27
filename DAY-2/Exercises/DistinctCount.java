@@ -1,3 +1,5 @@
+//QUESTION
+
 // There are N number of small cartoons and each cartoon will have a balloon of 
 // some color identified by a number. You are asked to select fixed number of 
 // P-cartoons as a subset every time and find the number of unique colored 
@@ -64,8 +66,9 @@
 // ----------------
 // 3 3 3 3 3
 
-import java.util.*;
 
+//PROGRAM
+import java.util.*;
 public class DistinctCount {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
